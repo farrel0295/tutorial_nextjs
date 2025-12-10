@@ -18,15 +18,21 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
-    },
-    keyframes: {
-      shimmer: {
-        '100%': {
-          transform: 'translateX(100%)',
+      // ⬇️ pindahkan ke sini!
+      keyframes: {
+        shimmer: {
+          '100%': {
+            transform: 'translateX(100%)',
+          },
         },
+      },
+      // optional kalau kamu mau pakai animation:
+      animation: {
+        shimmer: 'shimmer 1.5s infinite',
       },
     },
   },
   plugins: [require('@tailwindcss/forms')],
 };
+
 export default config;
