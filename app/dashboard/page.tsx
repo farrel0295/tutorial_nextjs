@@ -29,8 +29,8 @@ export default async function Page() {
         <CardWrapper
           numberOfCustomers={numberOfCustomers}
           numberOfInvoices={numberOfInvoices}
-          totalPaidInvoices={totalPaidInvoices}
-          totalPendingInvoices={totalPendingInvoices}
+          totalPaidInvoices={String(totalPaidInvoices)}
+          totalPendingInvoices={String(totalPendingInvoices)}
         />
       </div>
 
