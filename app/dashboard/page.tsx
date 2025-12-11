@@ -37,7 +37,7 @@ export default async function Page() {
       {/* Grafik + Latest Invoices */}
       <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
         <RevenueChart revenue={revenue} />
-        <LatestInvoices latestInvoices={latestInvoices} />
+        
       </div>
     </main>
   );
